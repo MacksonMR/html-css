@@ -15,6 +15,16 @@
     text-align: center;
 }
 
+body{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    height: 100%;
+}
+
 h1{
     text-align: center;
     color: var(--cor1);
@@ -113,11 +123,12 @@ p{
     background-color: rgba(5, 133, 238, 0.151);
     border-radius: 35px;
     height: 120px;
+    width: 100%;
+    margin-bottom: 30px;
 }
 
 .ptarja{
     padding-left: 15px;
-
 }
 
 .divPrincipal{
@@ -126,6 +137,8 @@ p{
     max-width: 830px;
     min-width: 320px ;
     margin: auto;
+    margin-left: 0px;
+    padding-left: 0px;
 }
 
 ul{
