@@ -5,16 +5,6 @@
     --cor2: #0066ff;
 }
 
-
-.aviso{
-    background-color: yellow;
-    margin-top: 0em;
-    margin-bottom: 1em;
-    padding: 0em;
-    height: 30px;
-    text-align: center;
-}
-
 body{
     margin-left: 0px;
     margin-right: 0px;
@@ -114,7 +104,8 @@ p{
     background-color: rgba(5, 118, 211, 0.205);
     border-radius: 0px 15px;
     border-style: groove;
-    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
     height: 40px;
     box-shadow: 10px 5px rgba(0, 0, 0, 0.055);
 }
