@@ -5,15 +5,25 @@
     --cor2: #0066ff;
 }
 
+
+.aviso{
+    background-color: yellow;
+    margin-top: 0em;
+    margin-bottom: 1em;
+    padding: 0em;
+    height: 30px;
+    text-align: center;
+}
+
 h1{
     text-align: center;
     color: var(--cor1);
     font-family: cursive;
     font-size: 80px;
     margin-top: 30px;
-    margin-right: 5px;
+    margin-right: 0px;
     margin-bottom: 15px;
-    margin-left: 5px;
+    margin-left: 0px;
 }
 
 h2{
@@ -29,7 +39,7 @@ h2{
 
 body{
     mask-image: url(imagens/bolsa.jpg);
-    background-repeat: repeat;
+    background-repeat:repeat-y;
     background-position: 100%;
 }
 
@@ -51,8 +61,8 @@ p{
 }
 
 .fotoGaleria{
-    width: 150px;
-    height: 150px;
+    width: 40%;
+    height: fit-content;
 }
 
 .foto1{
@@ -119,7 +129,7 @@ p{
 }
 
 ul{
-    margin: auto;
+    margin-top: 20px;
 }
 
 ol{
@@ -136,4 +146,43 @@ li{
 
 .video{
     border-radius: 25px;
+}
+
+.divgaleria{
+    text-align: center;
+}
+
+.retgaleria{
+    height: 180px;
+    width: 180px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.199);
+    display: inline-block;
+    background-position: center;
+    background-size: 160px 160px;
+    background-repeat: no-repeat;
+}
+
+#q1{
+    background-image: url('imagens/bolsas/bolsa1.jpg');
+}
+
+#q2{
+    background-image: url('imagens/bolsas/bolsa2.jpg');
+}
+
+#q3{
+    background-image: url('imagens/bolsas/bolsa3.jpg');
+}
+
+#q4{
+    background-image: url('imagens/bolsas/bolsa4.jpg');
+}
+
+#q5{
+    background-image: url('imagens/bolsas/bolsa5.jpg');
+}
+
+#q6{
+    background-image: url('imagens/bolsas/bolsa6.jpg');
 }
